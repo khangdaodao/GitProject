@@ -1,0 +1,15 @@
+div{
+    width : 100px ;
+    height : 100px ;
+    margin : 15px ;
+}
+#box1 {
+    background-color: brown;
+    display :inline ;
+}
+#box2 {
+    background-color: rgb(42, 110, 165);
+}
+#box3 {
+    background-color: rgb(224, 21, 163);
+}

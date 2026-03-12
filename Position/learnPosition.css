@@ -1,0 +1,31 @@
+.box{
+    width : 200px ;
+    height : 200px ;
+    margin : 15px ;
+}
+
+#box1{
+    background-color: aqua;
+    position : absolute ;
+}
+#box2{
+    background-color: rgb(255, 17, 0);
+     position : relative ;
+     bottom : 0px ;
+}
+#box3{
+    /* background-color: rgb(21, 255, 0); */
+    /* position :  */
+}
+/* relative : Cho phép chỉnh sửa vị trí của element 
+   absolute : gắn với một element parent gần nhất 
+   fixed : gắn element vào màn hình ( viewport ) 
+   sticky = relative + fixed */
+
+   body{
+    background-image: url(meomeo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+   }

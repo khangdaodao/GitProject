@@ -1,0 +1,29 @@
+#container {
+    border : 2px solid red ; 
+}
+#container > p {
+    color: rgb(255, 0, 179);
+}
+
+#container ~ p {
+    color : chocolate ; 
+}
+#container + p {
+    color : mediumseagreen; 
+}
+
+
+
+
+
+
+
+/* Combinations tutorial : là thuộc tính để xác định relationship
+ of element . Có các mqh sau : con cháu , con , chị em họ , hàng xóm 
+  (space) : descendent ( con cháu) ( lấy tất cả element bên trong)
+  > : con ( chỉ lấy con ruột , kh lấy cháu ) 
+  dấu ngã : chị em họ hàng ( lấy tất cả element đứng sau )
+  + : lấy một elemnt đứng sau 
+  *** Mở rộng : first-child , last-child , nth-child(); ( kĩ thuật chọn element)
+  nth-child(even) ; nth-child(3n). 
+   
