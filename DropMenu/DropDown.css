@@ -1,0 +1,36 @@
+#dropdown {
+    display : inline-block
+}
+#dropdown button {
+    color :aliceblue;
+    background-color: #646464;
+    border :none;
+
+    padding : 10px;
+}
+#dropdown button:hover {
+    background-color: #4d4d4d;
+    cursor : pointer;
+}
+#dropdown a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color : black;
+
+}
+#list {
+    position :absolute;
+background-color: rgb(202, 202, 202);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+    display: none;
+}
+#dropdown:hover #list {
+    transition : 9s;
+    display : block ;
+}
+#dropdown a:hover {
+    background-color: #646464;
+    transition: 2.2s  ;
+}

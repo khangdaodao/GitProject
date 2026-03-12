@@ -32,3 +32,10 @@ left :0px;
 .noww:hover::after {
   width : 100% ; 
 }
+
+/* Cần học thêm : 
+   + Học cách sử dụng padding
+   + text- align và vertical-align
+   + ôn lại position
+   + Có nhiều đoạn mình chưa thật sự hiểu và bị rối
+*/
