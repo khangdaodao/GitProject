@@ -1,5 +1,5 @@
 #dropdown {
-    display : inline-block
+    display : inline-block;
 }
 #dropdown button {
     color :aliceblue;
@@ -27,10 +27,11 @@ background-color: rgb(202, 202, 202);
     display: none;
 }
 #dropdown:hover #list {
-    transition : 9s;
     display : block ;
 }
 #dropdown a:hover {
     background-color: #646464;
-    transition: 2.2s  ;
+    transition: 0.7s  ;
 }
+
+/* -------------------- */

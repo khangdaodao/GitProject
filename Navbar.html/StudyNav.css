@@ -1,0 +1,31 @@
+
+body {
+    margin-left : 0px;
+}
+main {
+    margin :40px;
+}
+header h1 {
+    text-align: center;
+    vertical-align: auto;
+
+}
+.navbar ul {
+    background-color: black;
+    list-style-type: none;
+    padding : 2px;
+    margin : 5px ;
+    text-align: center; 
+}
+.navbar a {
+    text-decoration: none;
+    color : rgb(255, 255, 255) ;
+    cursor: pointer;
+    display :block  ;
+}
+.navbar a:hover {
+    background-color: rgb(122, 120, 120);
+    transition: 0.3s;
+}
+.navbar {
+ 
