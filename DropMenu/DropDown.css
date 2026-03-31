@@ -1,5 +1,7 @@
 #dropdown {
-    display : inline-block;
+    display : inline;
+    width: 300px;
+    height : 300px;
 }
 #dropdown button {
     color :aliceblue;

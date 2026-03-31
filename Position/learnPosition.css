@@ -23,7 +23,7 @@
    sticky = relative + fixed */
 
    body{
-    background-image: url(meomeo.jpg);
+    background-image: url(/Display/meomeo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

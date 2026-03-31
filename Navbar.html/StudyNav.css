@@ -13,19 +13,25 @@ header h1 {
 .navbar ul {
     background-color: black;
     list-style-type: none;
-    padding : 2px;
-    margin : 5px ;
+    padding : 0px;
+    margin : 0px ;
     text-align: center; 
+    overflow: hidden;
 }
 .navbar a {
     text-decoration: none;
     color : rgb(255, 255, 255) ;
     cursor: pointer;
     display :block  ;
+    padding : 15px;
 }
 .navbar a:hover {
     background-color: rgb(122, 120, 120);
     transition: 0.3s;
 }
+.navbar li {
+    float : left;
+}
 .navbar {
- 
+      justify-content: center;
+}
