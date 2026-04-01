@@ -1,0 +1,52 @@
+*{
+    margin : 5px;
+}
+.box{
+    display : flex;
+    flex-direction :column-reverse ; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px ;
+    
+}
+#box1 {
+    background-color: red;
+    width: 100px; 
+    height: 100px;
+    text-align: center;
+    text-size-adjust: 20px; 
+}
+#box2 {
+    background-color: rgb(132, 0, 255);
+    width: 100px; 
+    height: 100px;
+        text-align: center;
+
+}#box3  {
+    background-color: rgb(72, 255, 0);
+    width: 100px; 
+ 
+    height: 100px;
+
+    text-align: center;
+}
+.navbar a {
+   text-decoration: none;
+   color : whitesmoke;
+   padding : 20px;
+   
+}
+.navbar {
+    background-color: black;
+    height : 50px;
+    display : flex;
+    flex-direction: row-reverse;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.navbar a:hover {
+    background-color: rgb(49, 48, 48);
+    transition: 0.7s;
+}
