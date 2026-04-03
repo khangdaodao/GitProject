@@ -1,0 +1,75 @@
+* {
+    margin :0px;
+}
+.navbar {
+    height : 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 200px;
+}
+.navbar a {
+    text-decoration: none;
+    color : white;
+    font-size: 1.5em;
+    padding : 20px;
+}
+.navbar a:hover {
+    background-color: rgb(107, 107, 104);
+    transition : 0.8s ;
+    transform : scale(0.8) ;
+    color : red
+}
+.navbar a::after{
+   content: "";
+   position: absolute;
+   width : 0%;
+   height: 2px;
+   left : 0px;
+   background-color: rgb(122, 191, 255);
+   bottom : -2px;
+
+   transition : 0.3s;
+
+}
+.navbar a:hover::after {
+  width : 100%;
+}
+
+.button {
+    display : block;
+    position :absolute; 
+    top : 50% ;
+    left : 50% ;
+    width : 80px;
+    height :30px;
+    text-align: center;
+    border : 2px solid rgb(116, 116, 248);
+    background-color:blue;
+    color : white;
+    border-radius: 5px;
+     
+
+}
+button:hover {
+    cursor: pointer;
+background-color:rgb(115, 115, 250);
+transition : 0.3s;
+transform : rotateY(20deg)rotateX(20deg);
+
+}
+button:active {
+    background-color: rgb(158, 158, 146);
+    transform : scale(0.8);
+transition : 0.3s;
+}
+.box{
+    height : 200px ;
+    width : 200px;
+    border : 2px solid ;
+    background-color: burlywood;
+    text-align: center;
+     perspective: 1000px;
+}
+
