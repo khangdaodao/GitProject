@@ -1,0 +1,20 @@
+
+body{
+    margin : 0px;
+}
+.box {
+    width : 50%;
+    height: 250px;
+
+    padding : 20px;
+
+}
+    #box1 {
+        background-color: red;
+     float : right;
+
+    } 
+     #box2{ 
+ background-color: rgb(0, 162, 255);
+ text-align: center;
+}
